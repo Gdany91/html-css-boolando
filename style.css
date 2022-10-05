@@ -10,6 +10,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    position: fixed;
+    width: 100%;
 
     /* DEBUG */
     background-color: #FF6900 ;
@@ -20,10 +22,35 @@ header{
     width: 80%;
     padding: 10px 10px;
     display: flex;
-     /* DEBUG */
-    background-color: cornflowerblue;
+    justify-content: space-between;
+   
 }
 
+/* menu sx */
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    width: 13%;
+    list-style-type: none;
+    color: white;
+}
+
+/* logo */
+.logo{
+    width: 8%;
+}
+
+/* icone */
+.menu-list.icon{
+    justify-content: right;
+}
+
+.fa-heart{
+    padding: 0 4px;
+}
+
+
+/* corpo e-commerce */
 
 /* main container */
 .main-container{
