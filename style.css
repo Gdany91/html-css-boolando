@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* menu fixed */
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* DEBUG */
+    background-color: #FF6900 ;
+}
+
+/* container */
+.container{
+    width: 80%;
+    padding: 10px 10px;
+    display: flex;
+     /* DEBUG */
+    background-color: cornflowerblue;
+}
+
+
+/* main container */
+.main-container{
+    width: 80%;
+    min-height: 800PX;
+    margin: auto;
+    /* DEBUG */
+    background-color: rgb(100, 237, 143);
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    /* DEBUG */
+    background-color: #1A1A1A;
+}
+
+.containe.footer{
+    
+    /* DEBUG */
+    background-color: #FF6900;
+}
