@@ -27,7 +27,7 @@ header{
 }
 
 /* menu sx */
-.menu-list{
+.list{
     display: flex;
     justify-content: space-between;
     width: 13%;
@@ -41,7 +41,7 @@ header{
 }
 
 /* icone */
-.menu-list.icon{
+.list.icon{
     justify-content: right;
 }
 
@@ -95,13 +95,20 @@ header{
 footer{
     min-height: 100px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     /* DEBUG */
     background-color: #1A1A1A;
 }
 
-.containe.footer{
-    
-    /* DEBUG */
-    background-color: #FF6900;
+
+
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    color: white;
+    font-size: 10px;
+    line-height: 13px;
 }
+
