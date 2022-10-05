@@ -55,14 +55,30 @@ header{
 /* main container */
 .main-container{
     width: 80%;
-    min-height: 800PX;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     margin: auto;
-    /* DEBUG */
-    background-color: rgb(100, 237, 143);
 }
 
     
 
+/* riga 1 */
+.row{
+    min-height: 500px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.img{
+    margin-top: 160px ;
+    width: 438px;
+    border: 1px solid black;
+   }
+
+.img.center{
+    margin: 160px 20px 0 20px;
+}
 
 
 
