@@ -12,6 +12,7 @@ header{
     justify-content: center;
     position: fixed;
     width: 100%;
+    z-index: 50;
 
     /* DEBUG */
     background-color: #FF6900 ;
@@ -63,29 +64,92 @@ header{
 }
 
     
-
-/* riga 1 */
 .row{
     min-height: 500px;
     display: flex;
     margin-bottom: 0;
+    flex-wrap: wrap;
 }
 
 .img{
     margin-top: 160px ;
     width: 438px;
     border: 1px solid black;
-   }
+    position: relative;
+}
+   
+.sconto {
+    background-color: red;
+    color: white;
+}
 
-.img.center{
-    margin: 160px 20px 0 20px;
+.label{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+}
+.eco{
+    background-color: green;
+    color: white;
+}
+.prezzo{
+    text-decoration: line-through;
+}
+
+.fa-heart{
+    position: absolute;
+    right: 100;
+    right: 0px;
+    top: 190px;
+}
+
+.position-conteiner{
+    margin: 10px;
+    width: calc(33% - 20px);
+    position: relative;
+    cursor: pointer;
 }
 
 
+.img.center{
+    margin: 160px 20px 0px 10px;
+}
+
+/* item1 */
+.prezzo-scontato{
+    color: red;
+}
 
 
+.prezzo{
+    text-decoration: line-through;
+}
 
+/* hover img */
 
+.nth1:hover{
+   content: url(img/1b.webp);
+}
+
+.nth2:hover{
+    content: url(img/2b.webp);
+ }
+
+ .nth3:hover{
+    content: url(img/3b.webp);
+ }
+
+ .nth4:hover{
+    content: url(img/4b.webp);
+ }
+
+ .nth5:hover{
+    content: url(img/5b.webp);
+ }
+
+ .nth6:hover{
+    content: url(img/6b.webp);
+ }
 
 
 
