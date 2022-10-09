@@ -46,9 +46,6 @@ header{
     justify-content: right;
 }
 
-.fa-heart{
-    padding: 0 4px;
-}
 
 
 /* corpo e-commerce */
@@ -74,7 +71,6 @@ header{
 .img{
     margin-top: 160px ;
     width: 438px;
-    border: 1px solid black;
     position: relative;
 }
    
@@ -101,6 +97,10 @@ header{
     right: 100;
     right: 0px;
     top: 190px;
+}
+
+.fa-heart:hover{
+    color:red;
 }
 
 .position-conteiner{
