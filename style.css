@@ -46,6 +46,10 @@ header{
     justify-content: right;
 }
 
+.fa-regular.fa-heart{
+    padding: 0 4px;
+}
+
 
 
 /* corpo e-commerce */
@@ -92,7 +96,7 @@ header{
     text-decoration: line-through;
 }
 
-.fa-heart{
+.fa-solid.fa-heart{
     position: absolute;
     right: 100;
     right: 0px;
